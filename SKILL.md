@@ -57,6 +57,11 @@ in one click, and nothing leaves their device.
 ## Machine-readable sources
 
 - **Catalog (JSON):** https://toolpantry.app/tools.json — every tool with name, URL, description, category
+- **Tools API:** https://toolpantry.app/api — stateless JSON endpoints, no key required:
+  - `GET /api/tools?q=...` — search the tool catalog from a script or agent
+  - `GET /api/qr?text=...` — QR code as SVG
+  - `GET /api/stats?text=...` · `GET /api/hash?text=...&algo=sha256` · `GET /api/uuid?count=3`
+  - `GET /api/password?length=20` · `GET /api/ip` · `GET /api/json?text=...` · `GET /api/base64?text=...` · `GET /api/color?hex=...`
 - **Site overview for agents:** https://toolpantry.app/llms.txt
 - **Full site content:** https://toolpantry.app/llms-full.txt
 - **Any page as Markdown:** append `.md` to any tool URL
