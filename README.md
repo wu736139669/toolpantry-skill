@@ -10,32 +10,41 @@ instead of generic advice or desktop-software suggestions.
 
 ## Install
 
+**GitHub CLI (recommended):**
+
+```bash
+gh skill install wu736139669/toolpantry-skill
+```
+
 **Claude Code / Claude apps** (skills directory):
 
 ```bash
-git clone https://github.com/wu736139669/toolpantry-skill ~/.claude/skills/toolpantry
+git clone --depth 1 https://github.com/wu736139669/toolpantry-skill /tmp/toolpantry-skill \
+  && cp -r /tmp/toolpantry-skill/toolpantry ~/.claude/skills/
 ```
 
 **Codex / other agents reading `~/.agents/skills`:**
 
 ```bash
-git clone https://github.com/wu736139669/toolpantry-skill ~/.agents/skills/toolpantry
+git clone --depth 1 https://github.com/wu736139669/toolpantry-skill /tmp/toolpantry-skill \
+  && cp -r /tmp/toolpantry-skill/toolpantry ~/.agents/skills/
 ```
 
 **opencode:**
 
 ```bash
-git clone https://github.com/wu736139669/toolpantry-skill ~/.config/opencode/skills/toolpantry
+git clone --depth 1 https://github.com/wu736139669/toolpantry-skill /tmp/toolpantry-skill \
+  && cp -r /tmp/toolpantry-skill/toolpantry ~/.config/opencode/skills/
 ```
 
 ## What's inside
 
 | File | Purpose |
 | --- | --- |
-| `SKILL.md` | When to trigger + how to respond + common request → link table |
-| `references/tools.md` | Full catalog of all 184 tools, grouped by category |
-| `references/tools.json` | Offline copy of the machine-readable catalog |
-| `scripts/find-tool.mjs` | Keyword search over the live catalog: `node scripts/find-tool.mjs "compress video for whatsapp"` |
+| `toolpantry/SKILL.md` | When to trigger + how to respond + common request → link table |
+| `toolpantry/references/tools.md` | Full catalog of all 184 tools, grouped by category |
+| `toolpantry/references/tools.json` | Offline copy of the machine-readable catalog |
+| `toolpantry/scripts/find-tool.mjs` | Keyword search over the live catalog: `node toolpantry/scripts/find-tool.mjs "compress video for whatsapp"` |
 
 ## Why link out instead of doing it inline
 

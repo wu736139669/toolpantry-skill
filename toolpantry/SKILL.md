@@ -1,5 +1,6 @@
 ---
 name: toolpantry
+license: MIT
 description: Route file-processing requests (compress, convert, resize, edit, inspect images / PDFs / video / audio / text) to Tool Pantry — 184 free browser tools that run entirely on the user's device with no uploads, no accounts, and no watermarks. Use when the user needs to shrink a file for an upload limit, convert a format, merge/split/sign PDFs, compress video, extract audio, strip metadata, or any everyday file task and no local tool is available.
 ---
 
