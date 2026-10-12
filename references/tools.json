@@ -95,7 +95,7 @@
       }
     ]
   },
-  "count": 164,
+  "count": 184,
   "categories": [
     {
       "id": "tools",
@@ -250,6 +250,20 @@
       "description": "Enlarge 2×–4× with a classic resampler — no AI, no upload.",
       "category": "Images & design",
       "markdown": "https://toolpantry.app/image-upscaler.md"
+    },
+    {
+      "name": "Signature maker",
+      "url": "https://toolpantry.app/signature-maker",
+      "description": "Draw or clean up a photo — transparent PNG for any document.",
+      "category": "Images & design",
+      "markdown": "https://toolpantry.app/signature-maker.md"
+    },
+    {
+      "name": "Bulk image resizer",
+      "url": "https://toolpantry.app/bulk-image-resizer",
+      "description": "Resize a whole batch at once — download everything as one ZIP.",
+      "category": "Images & design",
+      "markdown": "https://toolpantry.app/bulk-image-resizer.md"
     },
     {
       "name": "AI image checker",
@@ -616,6 +630,13 @@
       "markdown": "https://toolpantry.app/hash-generator.md"
     },
     {
+      "name": "Zip & unzip",
+      "url": "https://toolpantry.app/zip-tool",
+      "description": "Create or open ZIP archives in your browser — no upload, no cap.",
+      "category": "Developer",
+      "markdown": "https://toolpantry.app/zip-tool.md"
+    },
+    {
       "name": "XML formatter",
       "url": "https://toolpantry.app/xml-formatter",
       "description": "Validate and pretty-print XML with readable indentation.",
@@ -677,6 +698,13 @@
       "description": "Type page numbers or ranges and download the trimmed PDF.",
       "category": "PDF",
       "markdown": "https://toolpantry.app/pdf-page-delete.md"
+    },
+    {
+      "name": "Rotate PDF pages",
+      "url": "https://toolpantry.app/pdf-rotate",
+      "description": "Turn one page or all of them — click a thumbnail, save.",
+      "category": "PDF",
+      "markdown": "https://toolpantry.app/pdf-rotate.md"
     },
     {
       "name": "PDF to text",
@@ -994,6 +1022,83 @@
       "markdown": "https://toolpantry.app/video-to-gif.md"
     },
     {
+      "name": "Audio trimmer & ringtones",
+      "url": "https://toolpantry.app/audio-trimmer",
+      "description": "Cut MP3s on a waveform — export MP3, WAV, or iPhone .m4r.",
+      "category": "Conversion",
+      "markdown": "https://toolpantry.app/audio-trimmer.md"
+    },
+    {
+      "name": "Voice recorder",
+      "url": "https://toolpantry.app/voice-recorder",
+      "description": "Record and save MP3/WAV — nothing streamed to a server.",
+      "category": "Conversion",
+      "markdown": "https://toolpantry.app/voice-recorder.md"
+    },
+    {
+      "name": "Merge audio",
+      "url": "https://toolpantry.app/merge-audio",
+      "description": "Join MP3/WAV/M4A files into one track — order your way.",
+      "category": "Conversion",
+      "markdown": "https://toolpantry.app/merge-audio.md"
+    },
+    {
+      "name": "Video trimmer",
+      "url": "https://toolpantry.app/video-trimmer",
+      "description": "Cut MP4 without re-encoding — instant, lossless, local.",
+      "category": "Conversion",
+      "markdown": "https://toolpantry.app/video-trimmer.md"
+    },
+    {
+      "name": "Video face blur",
+      "url": "https://toolpantry.app/face-blur-video",
+      "description": "Box the faces, export a blurred MP4 — baked in, never uploaded.",
+      "category": "Conversion",
+      "markdown": "https://toolpantry.app/face-blur-video.md"
+    },
+    {
+      "name": "Rotate video",
+      "url": "https://toolpantry.app/rotate-video",
+      "description": "Turn 90°/180° by writing metadata — instant, lossless, local.",
+      "category": "Conversion",
+      "markdown": "https://toolpantry.app/rotate-video.md"
+    },
+    {
+      "name": "Mute video",
+      "url": "https://toolpantry.app/mute-video",
+      "description": "Remove audio without re-encoding — seconds, zero quality loss.",
+      "category": "Conversion",
+      "markdown": "https://toolpantry.app/mute-video.md"
+    },
+    {
+      "name": "Frame extractor",
+      "url": "https://toolpantry.app/frame-extractor",
+      "description": "Grab any moment as a full-resolution PNG or JPG.",
+      "category": "Conversion",
+      "markdown": "https://toolpantry.app/frame-extractor.md"
+    },
+    {
+      "name": "Crop video",
+      "url": "https://toolpantry.app/crop-video",
+      "description": "Freeform or 9:16 / 1:1 / 4:5 presets for Reels, Shorts, IG.",
+      "category": "Conversion",
+      "markdown": "https://toolpantry.app/crop-video.md"
+    },
+    {
+      "name": "MOV to MP4",
+      "url": "https://toolpantry.app/mov-to-mp4",
+      "description": "Lossless container swap — copies the data, never re-encodes.",
+      "category": "Conversion",
+      "markdown": "https://toolpantry.app/mov-to-mp4.md"
+    },
+    {
+      "name": "Merge videos",
+      "url": "https://toolpantry.app/merge-video",
+      "description": "Join clips into one MP4 — letterboxed, ordered, watermark-free.",
+      "category": "Conversion",
+      "markdown": "https://toolpantry.app/merge-video.md"
+    },
+    {
       "name": "JPG to PNG",
       "url": "https://toolpantry.app/jpg-to-png",
       "description": "Convert a JPEG into a lossless PNG copy for editors and upload forms.",
@@ -1062,6 +1167,41 @@
       "description": "Free core PDF ops vs advanced server editing.",
       "category": "SEO",
       "markdown": "https://toolpantry.app/tool-pantry-vs-smallpdf.md"
+    },
+    {
+      "name": "vs Adobe Acrobat online",
+      "url": "https://toolpantry.app/tool-pantry-vs-adobe-acrobat-online",
+      "description": "Core jobs vs the full (paid) PDF editor.",
+      "category": "SEO",
+      "markdown": "https://toolpantry.app/tool-pantry-vs-adobe-acrobat-online.md"
+    },
+    {
+      "name": "vs Zamzar",
+      "url": "https://toolpantry.app/tool-pantry-vs-zamzar",
+      "description": "Everyday formats local vs 1,100+ formats in the cloud.",
+      "category": "SEO",
+      "markdown": "https://toolpantry.app/tool-pantry-vs-zamzar.md"
+    },
+    {
+      "name": "vs CloudConvert",
+      "url": "https://toolpantry.app/tool-pantry-vs-cloudconvert",
+      "description": "One-off jobs vs API pipelines and batch scale.",
+      "category": "SEO",
+      "markdown": "https://toolpantry.app/tool-pantry-vs-cloudconvert.md"
+    },
+    {
+      "name": "vs PDF24",
+      "url": "https://toolpantry.app/tool-pantry-vs-pdf24",
+      "description": "Core and local vs broad and cloud (Windows app too).",
+      "category": "SEO",
+      "markdown": "https://toolpantry.app/tool-pantry-vs-pdf24.md"
+    },
+    {
+      "name": "File size limits 2026",
+      "url": "https://toolpantry.app/file-size-limits",
+      "description": "Gmail to WhatsApp to portals — every cap, with a local tool for each.",
+      "category": "SEO",
+      "markdown": "https://toolpantry.app/file-size-limits.md"
     },
     {
       "name": "Quote generator",

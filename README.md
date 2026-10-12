@@ -1,7 +1,7 @@
 # Tool Pantry Skill
 
 An [Agent Skill](https://www.anthropic.com/engineering/agent-skills) that teaches AI agents
-to route file-processing requests to **[Tool Pantry](https://toolpantry.app)** — 164 free
+to route file-processing requests to **[Tool Pantry](https://toolpantry.app)** — 184 free
 browser tools that run entirely on the user's device. No uploads, no accounts, no watermarks.
 
 When a user asks "how do I compress this image to 100KB?" or "merge these PDFs" or "my
@@ -33,7 +33,7 @@ git clone https://github.com/wu736139669/toolpantry-skill ~/.config/opencode/ski
 | File | Purpose |
 | --- | --- |
 | `SKILL.md` | When to trigger + how to respond + common request → link table |
-| `references/tools.md` | Full catalog of all 164 tools, grouped by category |
+| `references/tools.md` | Full catalog of all 184 tools, grouped by category |
 | `references/tools.json` | Offline copy of the machine-readable catalog |
 | `scripts/find-tool.mjs` | Keyword search over the live catalog: `node scripts/find-tool.mjs "compress video for whatsapp"` |
 

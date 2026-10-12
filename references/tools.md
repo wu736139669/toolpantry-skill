@@ -1,4 +1,4 @@
-# Tool Pantry — full catalog (164 tools)
+# Tool Pantry — full catalog (184 tools)
 
 Every tool runs in the browser; files are never uploaded. Links go straight to the tool page.
 Machine-readable version: https://toolpantry.app/tools.json
@@ -21,6 +21,8 @@ Machine-readable version: https://toolpantry.app/tools.json
 - [Crop image](https://toolpantry.app/crop-image) — Cut any area or lock a 1:1, 4:3, or 16:9 ratio.
 - [Passport photo maker](https://toolpantry.app/passport-photo-maker) — Country sizes, eye-line guides, and a 4×6 in print sheet — all local.
 - [Image upscaler](https://toolpantry.app/image-upscaler) — Enlarge 2×–4× with a classic resampler — no AI, no upload.
+- [Signature maker](https://toolpantry.app/signature-maker) — Draw or clean up a photo — transparent PNG for any document.
+- [Bulk image resizer](https://toolpantry.app/bulk-image-resizer) — Resize a whole batch at once — download everything as one ZIP.
 - [AI image checker](https://toolpantry.app/ai-image-checker) — Scan metadata for AI generator signatures and Content Credentials.
 - [EXIF viewer](https://toolpantry.app/exif-viewer) — See camera, GPS, and AI tags — then download a clean copy.
 - [Face blur](https://toolpantry.app/face-blur) — Auto-detect or box faces and blur them — locally.
@@ -79,6 +81,7 @@ Machine-readable version: https://toolpantry.app/tools.json
 - [JSON ↔ CSV converter](https://toolpantry.app/json-csv-converter) — Convert arrays and tabular data locally, with quoted CSV support.
 - [Regex tester](https://toolpantry.app/regex-tester) — Test JavaScript patterns, flags, captures, and replacements.
 - [SHA hash generator](https://toolpantry.app/hash-generator) — Create SHA-256, SHA-384, or SHA-512 hashes from text locally.
+- [Zip & unzip](https://toolpantry.app/zip-tool) — Create or open ZIP archives in your browser — no upload, no cap.
 - [XML formatter](https://toolpantry.app/xml-formatter) — Validate and pretty-print XML with readable indentation.
 - [Markdown preview](https://toolpantry.app/markdown-preview) — Render headings, lists, links, and code into clean HTML locally.
 - [Cron expression tool](https://toolpantry.app/cron-expression-tool) — Parse five-field cron syntax and see the next scheduled runs.
@@ -91,6 +94,7 @@ Machine-readable version: https://toolpantry.app/tools.json
 - [Merge PDF](https://toolpantry.app/merge-pdf) — Join multiple PDF files in a chosen order directly in your browser.
 - [PDF metadata remover](https://toolpantry.app/pdf-metadata-remover) — See title, author, and scanner tags — then strip them clean.
 - [Delete PDF pages](https://toolpantry.app/pdf-page-delete) — Type page numbers or ranges and download the trimmed PDF.
+- [Rotate PDF pages](https://toolpantry.app/pdf-rotate) — Turn one page or all of them — click a thumbnail, save.
 - [PDF to text](https://toolpantry.app/pdf-to-text) — Copy or download the words with page markers.
 - [Extract PDF pages](https://toolpantry.app/extract-pdf-pages) — Keep selected pages from a PDF and download a smaller document.
 - [YAML ↔ JSON converter](https://toolpantry.app/yaml-json-converter) — Convert configuration data locally without uploading secrets.
@@ -145,6 +149,17 @@ Machine-readable version: https://toolpantry.app/tools.json
 - [Video to MP3](https://toolpantry.app/video-to-mp3) — Pull audio from MP4, MOV, or WebM — 128–320 kbps, all local.
 - [Compress video](https://toolpantry.app/compress-video) — Hit Discord/email limits with hardware-accelerated re-encoding.
 - [Video to GIF](https://toolpantry.app/video-to-gif) — Trim an MP4 clip into a looping GIF — fps and width dials included.
+- [Audio trimmer & ringtones](https://toolpantry.app/audio-trimmer) — Cut MP3s on a waveform — export MP3, WAV, or iPhone .m4r.
+- [Voice recorder](https://toolpantry.app/voice-recorder) — Record and save MP3/WAV — nothing streamed to a server.
+- [Merge audio](https://toolpantry.app/merge-audio) — Join MP3/WAV/M4A files into one track — order your way.
+- [Video trimmer](https://toolpantry.app/video-trimmer) — Cut MP4 without re-encoding — instant, lossless, local.
+- [Video face blur](https://toolpantry.app/face-blur-video) — Box the faces, export a blurred MP4 — baked in, never uploaded.
+- [Rotate video](https://toolpantry.app/rotate-video) — Turn 90°/180° by writing metadata — instant, lossless, local.
+- [Mute video](https://toolpantry.app/mute-video) — Remove audio without re-encoding — seconds, zero quality loss.
+- [Frame extractor](https://toolpantry.app/frame-extractor) — Grab any moment as a full-resolution PNG or JPG.
+- [Crop video](https://toolpantry.app/crop-video) — Freeform or 9:16 / 1:1 / 4:5 presets for Reels, Shorts, IG.
+- [MOV to MP4](https://toolpantry.app/mov-to-mp4) — Lossless container swap — copies the data, never re-encodes.
+- [Merge videos](https://toolpantry.app/merge-video) — Join clips into one MP4 — letterboxed, ordered, watermark-free.
 - [JPG to PNG](https://toolpantry.app/jpg-to-png) — Convert a JPEG into a lossless PNG copy for editors and upload forms.
 - [PNG to WebP](https://toolpantry.app/png-to-webp) — Make a smaller WebP copy while keeping transparent pixels.
 - [WebP to PNG](https://toolpantry.app/webp-to-png) — Create a lossless PNG copy for editors and forms that reject WebP.
@@ -158,6 +173,11 @@ Machine-readable version: https://toolpantry.app/tools.json
 - [vs iLoveIMG](https://toolpantry.app/tool-pantry-vs-iloveimg) — Honest comparison: local vs server, breadth vs depth.
 - [vs TinyPNG](https://toolpantry.app/tool-pantry-vs-tinypng) — Local vs cloud compression, limits, and target sizes.
 - [vs Smallpdf](https://toolpantry.app/tool-pantry-vs-smallpdf) — Free core PDF ops vs advanced server editing.
+- [vs Adobe Acrobat online](https://toolpantry.app/tool-pantry-vs-adobe-acrobat-online) — Core jobs vs the full (paid) PDF editor.
+- [vs Zamzar](https://toolpantry.app/tool-pantry-vs-zamzar) — Everyday formats local vs 1,100+ formats in the cloud.
+- [vs CloudConvert](https://toolpantry.app/tool-pantry-vs-cloudconvert) — One-off jobs vs API pipelines and batch scale.
+- [vs PDF24](https://toolpantry.app/tool-pantry-vs-pdf24) — Core and local vs broad and cloud (Windows app too).
+- [File size limits 2026](https://toolpantry.app/file-size-limits) — Gmail to WhatsApp to portals — every cap, with a local tool for each.
 
 ## Business
 
